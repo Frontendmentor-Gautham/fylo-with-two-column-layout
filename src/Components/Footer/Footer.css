@@ -1,0 +1,50 @@
+footer {
+  background-color: hsl(243, 87%, 12%);
+  color: #fff;
+  padding: 30px 70px;
+}
+
+.footer-logo {
+  margin-top: 30px;
+}
+
+.footer-links {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+li {
+  list-style-type: none;
+  opacity: 0.8;
+}
+.footer-list1 li div {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.footer-links li div img {
+  padding-right: 10px;
+}
+
+.footer-list2 li {
+  padding: 5px;
+}
+
+.footer-list3 li {
+  padding: 5px;
+}
+
+.footer-list4 {
+  display: flex;
+}
+
+.footer-list4 button {
+  background-color: hsl(243, 87%, 12%);
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding-right: 20px;
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 import illustration1 from "../../images/illustration-1.svg";
 import "./Introduction.css";
 
