@@ -1,0 +1,81 @@
+.features {
+  background-color: hsl(240, 75%, 98%);
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px 70px;
+}
+
+.features-img-wrapper img {
+  margin-top: 60px;
+  height: 70%;
+  max-width: 100%;
+  margin-left: 90px;
+}
+
+.features-content {
+  margin-top: 40px;
+}
+
+.features-content h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.features-content p {
+  padding-bottom: 10px;
+  font-weight: 600;
+}
+
+.fylo-working {
+  margin-top: 10px;
+  width: 30%;
+  border-bottom: 2px solid hsl(224, 93%, 58%);
+}
+.fylo-working a {
+  text-decoration: none;
+}
+.fylo-working button {
+  margin-left: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.testimonial {
+  width: 60%;
+  margin-top: 30px;
+  background-color: #fff;
+  padding: 20px 40px;
+  box-shadow: 0px 2px 5px #000;
+}
+
+.testimonial img {
+  height: 30px;
+}
+
+.testimonial p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+}
+
+.profile img {
+  border-radius: 50%;
+  height: 40px;
+}
+
+.profile-content {
+  margin-left: 10px;
+}
+
+.profile-content p {
+  margin: 0;
+  padding-bottom: 0;
+}

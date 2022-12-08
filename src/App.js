@@ -1,8 +1,17 @@
-import './styles/style.css'
+import "./App.css";
+import Features from "./Components/Features/Features";
+import Footer from "./Components/Footer/Footer";
+import Introduction from "./Components/Introduction/Introduction";
+import Navbar from "./Components/Navbar/Navbar";
+import Signup from "./Components/Signup/Signup";
 function App() {
   return (
     <>
-      <h1 className="head">Welcome to react</h1>
+      <Navbar />
+      <Introduction />
+      <Features />
+      <Signup />
+      <Footer />
     </>
   );
 }

@@ -1,0 +1,18 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px 70px;
+}
+
+.nav-links ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-family: "Raleway", sans-serif;
+}
+
+.nav-links ul li {
+  list-style-type: none;
+  padding-right: 15px;
+}
