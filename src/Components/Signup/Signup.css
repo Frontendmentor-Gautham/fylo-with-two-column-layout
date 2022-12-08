@@ -32,10 +32,19 @@
 
 .signup-handler input {
   padding: 10px;
+  width: 80%;
   height: 40px;
   border-radius: 5px;
   outline: none;
   border: none;
+}
+
+.empty-warning-msg {
+  opacity: 0.8;
+}
+
+.empty input {
+  border: 1px solid red;
 }
 
 .signup-handler button {
