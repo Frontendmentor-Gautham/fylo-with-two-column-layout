@@ -79,3 +79,35 @@
   margin: 0;
   padding-bottom: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .features {
+    flex-direction: column-reverse;
+    padding: 20px 30px;
+    margin-bottom: 30px;
+  }
+  .features-img-wrapper img {
+    margin-left: -10px;
+  }
+  .features-content h2 {
+    font-size: 28px;
+    text-align: center;
+  }
+  .features-content p {
+    font-weight: 500;
+  }
+
+  .fylo-working {
+    width: 170px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+  }
+
+  .testimonial {
+    width: 420px;
+    display: grid;
+    place-self: center;
+    margin-left: 30px;
+  }
+}

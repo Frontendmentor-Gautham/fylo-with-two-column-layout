@@ -48,3 +48,30 @@ li {
   outline: none;
   padding-right: 20px;
 }
+
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 30px 30px;
+    height: 650px;
+  }
+
+  .footer-links {
+    flex-direction: column;
+  }
+
+  .footer-list2 {
+    margin-top: 20px;
+    margin-left: -5px;
+  }
+
+  .footer-list3 {
+    margin-top: 20px;
+    margin-left: -5px;
+  }
+
+  .footer-list4 {
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -40,6 +40,7 @@
 }
 
 .empty-warning-msg {
+  color: red;
   opacity: 0.8;
 }
 
@@ -57,4 +58,32 @@
   padding: 14px;
   border-radius: 5px;
   border: none;
+}
+
+@media screen and (max-width: 768px) {
+  .signup {
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 450px;
+    padding: 0;
+    max-width: 650px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .signup-content {
+    margin-top: 20px;
+    width: 80%;
+  }
+
+  .signup-handler {
+    margin-top: -20px;
+    width: 70%;
+  }
+  .signup-handler input {
+    width: 100%;
+  }
+  .signup-handler button {
+    width: 100%;
+  }
 }
