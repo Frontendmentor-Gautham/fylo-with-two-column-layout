@@ -19,6 +19,11 @@ li {
   list-style-type: none;
   opacity: 0.8;
 }
+
+li:hover {
+  cursor: pointer;
+  color: hsl(224, 93%, 58%);
+}
 .footer-list1 li div {
   display: flex;
   align-items: center;

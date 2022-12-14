@@ -34,8 +34,16 @@
   width: 30%;
   border-bottom: 2px solid hsl(224, 93%, 58%);
 }
+
+.fylo-working:hover {
+  border-bottom: 2px solid rgb(26, 139, 162);
+}
 .fylo-working a {
   text-decoration: none;
+}
+
+.fylo-working a:hover {
+  color: rgb(26, 139, 162);
 }
 .fylo-working button {
   margin-left: 5px;

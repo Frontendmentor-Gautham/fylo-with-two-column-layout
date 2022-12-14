@@ -49,6 +49,7 @@
 }
 
 .signup-handler button {
+  cursor: pointer;
   font-family: "Raleway", sans-serif;
   width: 30%;
   background-color: hsl(224, 93%, 58%);
